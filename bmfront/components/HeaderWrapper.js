@@ -34,7 +34,6 @@ const Container = styled.div(left => ({
     height: `${HEADER_HEIGHT}`,
     flexDirection: `row`,
     padding: `0 4%`,
-    borderBottom: `1px solid rgba(2, 32, 71, 0.05)`,
 }));
 
 export default HeaderWrapper;

@@ -31,7 +31,7 @@ function GlobalHeader() {
   return (
     <HeaderWrapper>
       <div className={cx(flex, flexBtw)}>
-        <h3 className={homeTitle}>반면교사</h3>
+        <a href="/" className={homeTitle}>반면교사</a>
         <div className={cx(rightCloumn)}>
           <HeaderBtn title="about" path="about" nowPath={nowPath} />
           <HeaderBtn title="Archive" path="archive" nowPath={nowPath} />
