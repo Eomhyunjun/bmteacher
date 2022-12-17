@@ -1,6 +1,7 @@
 import { css, cx } from "@emotion/css";
 import { useRouter } from "next/router";
 import HeaderWrapper from "./HeaderWrapper";
+import Link from 'next/link'
 
 const HeaderBtn = ({ title, path, nowPath }) => {
   function onClickAction(path) {
@@ -31,7 +32,7 @@ function GlobalHeader() {
   return (
     <HeaderWrapper>
       <div className={cx(flex, flexBtw)}>
-        <a href="/" className={homeTitle}>반면교사</a>
+        <Link href="/" className={homeTitle}>반면교사</Link>
         <div className={cx(rightCloumn)}>
           <HeaderBtn title="about" path="about" nowPath={nowPath} />
           <HeaderBtn title="Archive" path="archive" nowPath={nowPath} />
