@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { MovePage_a } from "../styledComponents/wrapper";
 
 export default function Home() {
   return (
@@ -8,12 +9,12 @@ export default function Home() {
         반면교사는 다른 사람의 잘못된 일과 실패를 거울삼아 나의 가르침으로
         삼는다는 뜻입니다.
       </SubText>
-      <SeeMore
+      <MovePage_a
         as="a"
         href="https://heom.notion.site/31b33185cc7546ca8686b1c065f66edc?v=fad2b533272e4631a64e4f75b3cbfe3b"
       >
         go to Archive
-      </SeeMore>
+      </MovePage_a>
     </Container>
   );
 }
@@ -35,15 +36,4 @@ const SubText = styled.p`
   margin: 10px auto;
 
   text-align: center;
-`;
-
-const SeeMore = styled.a`
-  display: block;
-  margin: 80px auto;
-  width: 120px;
-
-  text-align: center;
-  &:hover {
-    color: blue;
-  }
 `;
