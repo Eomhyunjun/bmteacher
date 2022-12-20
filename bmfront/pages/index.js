@@ -1,9 +1,17 @@
 import styled from "@emotion/styled";
+import Head from "next/head";
 import { MovePage_a } from "../styledComponents/wrapper";
 
 export default function Home() {
   return (
     <Container>
+      <Head>
+        <meta
+          name="naver-site-verification"
+          content="e5b01ccf23389c9c3316a778fe94b575e0a8f699"
+        />
+        <meta title="반면교사" />
+      </Head>
       <MainText>반면교사[反面敎師]</MainText>
       <SubText>
         반면교사는 다른 사람의 잘못된 일과 실패를 거울삼아 나의 가르침으로
@@ -19,8 +27,7 @@ export default function Home() {
   );
 }
 
-const Container = styled.div`
-`;
+const Container = styled.div``;
 
 const MainText = styled.p`
   margin: 0 auto;
