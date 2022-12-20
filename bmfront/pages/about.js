@@ -23,9 +23,8 @@ function about(props) {
 
 const Container = styled.div`
   display: flex;
-  width: 100%;
-  
-  justify-content: space-between;
+  width: fit-content;
+  margin: 0 auto;
   padding-left: 150px;
   padding-right: 150px;
 `;

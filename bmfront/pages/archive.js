@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { MovePage_a } from "../styledComponents/common";
-import { notionUrl } from "../value/notionUrl";
+import { notionUrl } from "../global/notionUrl";
 
 function archive(props) {
   return (
@@ -15,8 +15,10 @@ function archive(props) {
 }
 
 const Container = styled.div`
-  padding: 10px;
-  margin-top: -30px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 `;
 
 export default archive;

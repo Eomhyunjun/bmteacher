@@ -8,15 +8,17 @@ function qna(props) {
       <MarginCenter>
         문의사항이 있으면 아래 메일로 연락주세요!
         <br />
-        bmgs@gmail.com
+        bmteacher23@gmail.com
       </MarginCenter>
     </Container>
   );
 }
 
 const Container = styled.div`
-  padding: 10px;
-  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 `;
 
 export default qna;
