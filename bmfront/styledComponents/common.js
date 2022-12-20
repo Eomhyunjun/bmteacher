@@ -9,10 +9,17 @@ export const MarginCenter = styled.div`
 export const MovePage_a = styled.a`
 display: block;
 margin: 80px auto;
-width: 120px;
-
+width: 140px;
+height: 48px;
+line-height: 48px;
 text-align: center;
+border-radius: 8px;
+background: black;
+color: white;
+
 &:hover {
-  color: blue;
+  background: white;
+  color: black;
+  border: 1px solid #000;
 }
 `;
