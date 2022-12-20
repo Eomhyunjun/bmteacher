@@ -20,7 +20,7 @@ export default function Home() {
       </SubText>
       <MovePage_a
         as="a"
-        href="https://heom.notion.site/31b33185cc7546ca8686b1c065f66edc?v=fad2b533272e4631a64e4f75b3cbfe3b"
+        href="https://heom.notion.site/50998d3b1bde43ff8b16a94ec622731c?v=9248c38ff1ca44de90225d53dc85b010"
       >
         go to Archive
       </MovePage_a>
