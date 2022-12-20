@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { MovePage_a } from "../styledComponents/wrapper";
+import { MovePage_a } from "../styledComponents/common";
+import { notionUrl } from "../value/notionUrl";
 
 function archive(props) {
   return (
     <Container>
         <MovePage_a 
-        as="a" href="https://heom.notion.site/50998d3b1bde43ff8b16a94ec622731c?v=9248c38ff1ca44de90225d53dc85b010">
+        as="a" href={notionUrl}>
           archive 보기
         </MovePage_a>
     </Container>

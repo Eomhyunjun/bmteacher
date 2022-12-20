@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import Head from "next/head";
-import { MovePage_a } from "../styledComponents/wrapper";
+import { MovePage_a } from "../styledComponents/common";
+import { notionUrl } from "../value/notionUrl";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       </SubText>
       <MovePage_a
         as="a"
-        href="https://heom.notion.site/50998d3b1bde43ff8b16a94ec622731c?v=9248c38ff1ca44de90225d53dc85b010"
+        href={notionUrl}
       >
         go to Archive
       </MovePage_a>

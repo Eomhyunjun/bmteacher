@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { MarginCenter } from "../styledComponents/wrapper";
+import { MarginCenter } from "../styledComponents/common";
 
 function qna(props) {
   return (
